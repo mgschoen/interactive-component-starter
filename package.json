@@ -7,11 +7,24 @@
     "start": "sirv public",
     "validate": "svelte-check"
   },
+  "browserslist": [
+    "last 2 chrome versions",
+    "last 2 safari versions",
+    "last 2 firefox versions",
+    "last 2 edge versions",
+    "ie >= 11",
+    "android >= 4.4.4",
+    "ios >= 9"
+  ],
   "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@rollup/plugin-babel": "^5.2.3",
     "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
     "@rollup/plugin-typescript": "^5.0.2",
     "@tsconfig/svelte": "^1.0.10",
+    "core-js": "^3.8.3",
     "rollup": "^2.3.4",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-svelte": "^5.2.3",

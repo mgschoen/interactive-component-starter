@@ -1,6 +1,6 @@
 const sveltePreprocess = require('svelte-preprocess');
 
 module.exports = {
-    customElement:true,
+    customElement: true,
     preprocess: sveltePreprocess(),
 };

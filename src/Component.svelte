@@ -43,6 +43,7 @@
 
 <style lang="scss">
   .container {
+    width: 100%;
     .data {
       width: 100%;
       overflow: scroll;
